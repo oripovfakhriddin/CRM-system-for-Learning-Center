@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const montserat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "School Management Dashboard",
@@ -15,8 +15,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang='uz'>
+      <body className={montserat.className}>{children}</body>
     </html>
   );
 }

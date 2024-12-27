@@ -13,6 +13,14 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        oripovSky: "#C3EBFA",
+        oripovSkylight: "#EDF9FD",
+        oripovPurple: "#CFCEFF",
+        oripovPurpleLight: "#F1F0FF",
+        oripovYellow: "#FAE27C",
+        oripovYellowLight: "#FEFCE8",
+      },
     },
   },
   plugins: [],
