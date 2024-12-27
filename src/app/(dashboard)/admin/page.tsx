@@ -1,9 +1,9 @@
-import Announcements from "@/components/announcements";
-import AttendanceChart from "@/components/attendance-chart";
-import CountChart from "@/components/count-chart";
-import EventCalendar from "@/components/event-calendar";
-import FinanceChart from "@/components/finance-chart";
-import UserCard from "@/components/user-card";
+import Announcements from "components/announcements";
+import AttendanceChart from "components/attendance-chart";
+import CountChart from "components/count-chart";
+import EventCalendar from "components/event-calendar";
+import FinanceChart from "components/finance-chart";
+import UserCard from "components/user-card";
 import React from "react";
 
 const AdminPage = () => {
