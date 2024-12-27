@@ -4,6 +4,7 @@ const Homepage = () => {
   return (
     <div className=''>
       <Link href='/admin'>Admin</Link>
+      salom
     </div>
   );
 };
