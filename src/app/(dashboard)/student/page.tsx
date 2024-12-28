@@ -1,7 +1,13 @@
+import React from "react";
+import { Metadata } from "next";
 import Announcements from "@/components/announcements";
 import BigCalendar from "@/components/big-calendar";
 import EventCalendar from "@/components/event-calendar";
-import React from "react";
+
+export const metadata: Metadata = {
+  title: "Student | Stem LC",
+  description: "Next.js CRM was made Fakhriddin Oripov",
+};
 
 const StudentPage = () => {
   return (

@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Calendar Started */
+
 .react-calendar {
   width: 100% !important;
   border: none !important;
@@ -16,6 +18,10 @@
 .react-calendar__navigation__label__labelText {
   font-weight: 600;
 }
+
+/* Calendar Finished */
+
+/* Big Calendar Started */
 
 .rbc-btn-group:first-child {
   display: none !important;
@@ -45,7 +51,11 @@
   border-color: #eee !important;
 }
 
-.rbc-time-header {
+/* .rbc-time-header {
+  display: none !important;
+} */
+
+.rbc-allday-cell {
   display: none !important;
 }
 
@@ -97,3 +107,5 @@
   color: gray !important;
   margin-bottom: 5px !important;
 }
+
+/* Big Calendar Finished */

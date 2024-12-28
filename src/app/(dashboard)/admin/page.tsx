@@ -1,10 +1,16 @@
+import React from "react";
+import { Metadata } from "next";
 import Announcements from "@/components/announcements";
 import AttendanceChart from "@/components/attendance-chart";
 import CountChart from "@/components/count-chart";
 import EventCalendar from "@/components/event-calendar";
 import FinanceChart from "@/components/finance-chart";
 import UserCard from "@/components/user-card";
-import React from "react";
+
+export const metadata: Metadata = {
+  title: "Admin | Stem LC",
+  description: "Next.js CRM was made Fakhriddin Oripov",
+};
 
 const AdminPage = () => {
   return (

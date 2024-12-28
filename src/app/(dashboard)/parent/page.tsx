@@ -1,6 +1,12 @@
+import React from "react";
+import { Metadata } from "next";
 import Announcements from "@/components/announcements";
 import BigCalendar from "@/components/big-calendar";
-import React from "react";
+
+export const metadata: Metadata = {
+  title: "Parent | Stem LC",
+  description: "Next.js CRM was made Fakhriddin Oripov",
+};
 
 const ParentPage = () => {
   return (
