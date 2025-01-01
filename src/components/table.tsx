@@ -6,6 +6,8 @@ import Class from "@/types/class";
 import Lesson from "@/types/lesson";
 import Exam from "@/types/exam";
 import Assignment from "@/types/assignment";
+import Announcement from "@/types/announcement";
+import Event from "@/types/event";
 
 const Table = ({
   columns,
@@ -22,7 +24,9 @@ const Table = ({
     | Class[]
     | Lesson[]
     | Exam[]
-    | Assignment[];
+    | Assignment[]
+    | Announcement[]
+    | Event[];
 }) => {
   return (
     <table className='w-full mt-4 '>
