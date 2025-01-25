@@ -30,7 +30,9 @@ const Navbar = () => {
           </div>
         </div>
         <div className='flex flex-col'>
-          <span className='text-xs leading-3 font-medium'>John Doe</span>
+          <span className='text-xs leading-3 font-medium text-end'>
+            Oripov Faxriddin
+          </span>
           <span className='text-gray-500 text-right'>Admin</span>
         </div>
         <div className='rounded-full overflow-hidden'>
